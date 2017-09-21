@@ -14,7 +14,8 @@ GET /api/stations/:stationId/reviews --> returns all reviews in an array for tha
 
 PUT /api/stations/:stationId --> returns the details of a specific station with an updated empty_slots field
   - accepts json
-    - ```
+    -
+    ```
     {
         emptySlots: Number,
         closed: Bool,
